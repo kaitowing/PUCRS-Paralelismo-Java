@@ -1,9 +1,9 @@
 import java.util.concurrent.Semaphore;
 
 public class Barbearia {
-    private Semaphore mutex = new Semaphore(1); 
-    private Semaphore barbeiroDisponivel = new Semaphore(0); 
-    private Semaphore clienteEsperando = new Semaphore(0); 
+    private Semaphore mutex = new Semaphore(1);
+    private Semaphore barbeiroDisponivel = new Semaphore(0);
+    private Semaphore clienteEsperando = new Semaphore(0);
     private int clientesEsperando = 0;
     private static long timeStart = System.currentTimeMillis();
 
