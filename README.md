@@ -1,6 +1,6 @@
 # Concorrência com Semáforos em Java
 
-Este repositório contém as implementações dos problemas clássicos de concorrência dos Leitores e Escritores e da Barbearia, usando semáforos em Java. As implementações foram feitas como parte de um trabalho da faculdade para demonstrar o uso de semáforos na resolução de problemas de concorrência.
+Este repositório contém as implementações dos problemas clássicos de concorrência dos Leitores e Escritores, da Barbearia e dos Filósofos, usando semáforos em Java. As implementações foram feitas como parte de um trabalho da faculdade para demonstrar o uso de semáforos na resolução de problemas de concorrência.
 
 ## Problema dos Leitores e Escritores
 
@@ -18,6 +18,14 @@ O problema da Barbearia é outro exemplo clássico de concorrência em que um ba
 ### Classes Relevantes
 
 - `Barbearia`: Implementação do problema da Barbearia em Java.
+
+## Problema dos Filósofos
+
+O problema dos Filósofos é um exemplo clássico de concorrência em que vários filósofos se sentam em uma mesa redonda e tentam pegar garfos para comer, evitando inanição (starvation). A implementação utiliza semáforos para garantir uma distribuição justa dos garfos entre os filósofos.
+
+### Classes Relevantes
+
+- `Filosofos`: Implementação do problema dos Filósofos em Java.
 
 ## Como Executar
 
