@@ -29,7 +29,7 @@ O problema dos Filósofos é um exemplo clássico de concorrência em que vário
 
 ## Database
 
-O problema do Search-Insert-Delete é um problema 
+O problema do Search-Insert-Delete é um problema de banco de dados que três tipos diferentes de threads têm acesso a uma lista encadeada simples: os "searchers", os "inserters" e os "deleters". Os searchers apenas examinam a lista, portanto, eles podem executar suas operações ao mesmo tempo que outros searchers. Os inserters adicionam novos elementos ao final da lista; essas inserções devem ser exclusivas para evitar que dois inserters adicionem itens ao mesmo tempo. No entanto, um único inserter pode adicionar itens em paralelo com qualquer número de operações de busca. Por fim, os deleters removem elementos de qualquer lugar da lista. Apenas um processo de deletion pode acessar a lista de cada vez, e a operação de deletion também deve ser exclusiva em relação às operações de busca e inserção.
 
 ## Como Executar
 
